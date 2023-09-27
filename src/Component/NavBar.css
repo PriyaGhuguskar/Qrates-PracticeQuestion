@@ -1,0 +1,233 @@
+.c-public-header {
+    position: relative;
+    z-index: 100;
+    height: 100px;
+    padding: 0px 30px;
+    /* display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox; */
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #ffffff;
+}
+
+.c-public-header__logo {
+    width: 38px;
+    -webkit-box-flex: 0;
+    /* -webkit-flex: 0 0 38px; */
+    -ms-flex: 0 0 38px;
+    flex: 0 0 38px;
+}
+
+.c-public-header__logo img {
+    max-width: 100%;
+}
+
+.c-public-header .navigation {
+    background: #ffffff;
+}
+
+.c-public-header__navigation {
+    margin-left: 3.2%;
+}
+
+nav,
+ul {
+    list-style: none;
+}
+
+.c-public-header .navigation__list {
+    /* display: -webkit-box; */
+    /* display: -webkit-flex; */
+    /* display: -ms-flexbox; */
+    display: flex;
+    -webkit-box-align: center;
+    /* -webkit-align-items: center; */
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.c-public-header .navigation__list>*:not(:last-child) {
+    margin-right: 30px;
+}
+
+.c-public-header .navigation__list-item {
+    position: relative;
+    display: block;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+}
+
+.c-public-header .navigation-submenu__button {
+    display: inline-block;
+    position: relative;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000000;
+    cursor: pointer;
+    white-space: nowrap;
+    padding-right: 16px;
+}
+
+.c-public-header .navigation-submenu__button i {
+    position: absolute;
+    top: 51%;
+    right: -5px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 22px;
+    -webkit-transition: -webkit-transform 0.3s ease;
+    transition: -webkit-transform 0.3s ease;
+    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+
+.c-pictogram {
+    display: inline-block;
+}
+
+.c-public-header .navigation-submenu__list {
+    visibility: hidden;
+    opacity: 0;
+    z-index: 1;
+    position: absolute;
+    top: -webkit-calc(100% + 10px);
+    top: calc(100% + 10px);
+    left: 0px;
+    padding: 20px;
+    background: #000000;
+    -webkit-transition: opacity 0.1s;
+    transition: opacity 0.1s;
+}
+
+.c-public-header .navigation-submenu__list>*:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.c-public-header .navigation-submenu__link {
+    position: relative;
+    font-size: 20px;
+    font-weight: 500px;
+    cursor: pointer;
+    line-height: 1.1;
+    white-space: nowrap;
+    color: #ffffff;
+}
+
+.c-public-header .navigation__link {
+    display: block;
+    position: relative;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000000;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.c-search-modal-icon {
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.c-public-header__search {
+    margin-left: 30px;
+}
+
+.c-cart-icon {
+    position: relative;
+}
+
+.c-cart-icon__icon {
+    font-size: 22px;
+    color: #000000;
+}
+
+.c-public-header__right-bar {
+    margin-left: auto;
+    margin-right: 0px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.c-public-header__login-button {
+    margin-right: 22px;
+    margin-left: auto;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000000;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.c-public-header__start-button {
+    min-width: 211px;
+    margin-right: 0;
+}
+
+.c-button--black {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.c-button {
+    display: inline-block;
+    position: relative;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    height: 50px;
+    min-width: 140px;
+    padding: 0 23.5px 0 25.5px;
+    border-radius: -webkit-calc(174px / 2);
+    border-radius: calc(174px / 2);
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.18px;
+    text-align: center;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    border: none;
+    outline: 0;
+    text-transform: uppercase;
+
+}
+
+@media screen and (min-width: 991px) {
+    .u-hidden-desktop-only {
+        display: none !important;
+    }
+}
+
+
+
+
+
+.c-public-header__burger {
+    margin-left: 25px;
+    cursor: pointer;
+}

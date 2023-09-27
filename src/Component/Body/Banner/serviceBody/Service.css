@@ -1,0 +1,220 @@
+.c-grid--center {
+
+    display: -ms-flexbox;
+    display: flex;
+
+    justify-content: space-between;
+
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.c-column--center__explanation {
+    margin-bottom: 33px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: -0.27px;
+    line-height: 28px;
+}
+
+.c-grid__container,
+.c-column--grid__container {
+
+    flex: 1;
+}
+
+.c-button--large {
+    min-width: 267px;
+    border-radius: -webkit-calc(267px / 2);
+    border-radius: calc(267px / 2);
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.18px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.c-button--white-line-black,
+.c-button--edit {
+    color: #000000;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    line-height: 46px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.p-why__services-left {
+    padding: 8% 4% 8% 8%;
+}
+
+.c-column--center__inner {
+
+    display: flex;
+
+    flex-direction: column;
+    padding: 94px 8% 76px;
+    text-align: center;
+}
+
+.c-column--center__inner .c-label--pages,
+.c-column--center__inner .c-label--pages--no-margin,
+.c-column--center__inner .c-label--pages--black,
+.c-column--center__inner .c-label--pages--white {
+    margin: 0 auto 22px;
+}
+
+.c-label--pages--white {
+    color: #000000;
+    background: #ffffff;
+}
+
+.c-label--pages,
+.c-label--pages--black,
+.c-label--pages--white,
+.c-label--pages--no-margin {
+    display: inline-block !important;
+
+    width: fit-content;
+
+    box-sizing: content-box;
+    padding: 9px 10px;
+    margin-bottom: 22px;
+    border: 2px solid #000000;
+}
+
+.p-why__services-heading {
+    color: transparent;
+
+    font-weight: 900;
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 1.42px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.c-column--center__title {
+    margin-bottom: 30px;
+
+}
+
+.c-column__image--photo-left {
+    width: 70%;
+    margin: 52px auto 68px;
+    transform: rotateZ(-10deg);
+    /* -webkit-transform: rotate(-10deg) translate3d(0, 0, 0); */
+    /* transform: rotate(-10deg) translate3d(0, 0, 0); */
+    /* -webkit-transform-style: preserve-3d; */
+    -webkit-transform: rotateZ(-10deg);
+}
+
+.c-column__image--photo,
+.c-column__image--photo-left {
+    width: 90%;
+    margin: 34px auto 0;
+    overflow: hidden;
+    border: 2px solid #000000;
+}
+
+.c-column__image--photo img,
+.c-column__image--photo-left img {
+    width: 100%;
+}
+
+
+
+
+
+.c-grid__container,
+.c-column--grid__container {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.c-column__inner {
+    padding: 120px 8%;
+}
+
+.services-tabs {
+    border: 2px solid #000000;
+}
+
+.services-tabs__category-link {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: -0.3px;
+    line-height: 34px;
+    display: block;
+    padding: 30px 60px 30px 20px;
+    background: #000000;
+    color: #ffffff;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.services-tabs__item:not(:last-of-type) {
+    border-bottom: 2px solid #000000;
+}
+
+.services-tabs__item {
+    overflow: hidden;
+    max-height: 77px;
+    -webkit-transition: max-height 0.4s cubic-bezier(0, 1, 0, 1);
+    transition: max-height 0.4s cubic-bezier(0, 1, 0, 1);
+}
+
+.services-tabs__tab-link {
+    position: relative;
+    display: inline-block;
+}
+
+.services-tabs__link,
+.services-tabs__tab-link {
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: -0.27px;
+    line-height: 28px;
+    display: block;
+    width: 100%;
+    background: #ffffff;
+    text-align: left;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 0px 0px 30px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.p-why__services-heading {
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000000;
+    font-weight: 900;
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 1.42px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.c-column__image--photo,
+.c-column__image--photo-left {
+    width: 90%;
+    margin: 34px auto 0;
+    overflow: hidden;
+    border: 2px solid #000000;
+}
