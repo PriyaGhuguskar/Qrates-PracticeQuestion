@@ -25,7 +25,7 @@ const Vinyl = () => {
                     </p>
                     <div className="p-why__column-auto-container" style={{ display: 'flex', flexDirection: 'column', position: 'relative' }}>
                         <div className="p-why__column-sticker">
-                            <img style={{ width: "auto", height: "209px", position: "relative" }} src={Vinylpng} />
+                            <img style={{ width: "auto", height: "209px", position: "relative" }} src={Vinylpng} alt='cassete' />
                         </div>
                         <a className="c-button--large c-button--black u-hidden-tablet" href="/">MAKE YOUR OWN VINYL</a>
                     </div>
@@ -42,7 +42,7 @@ const Vinyl = () => {
                     <div className="p-why__column-auto-container" style={{ display: 'flex', flexDirection: 'column', position: 'relative' }}>
                         <div className="p-why__column-sticker">
                             <img className="c-sticker p-why__column-sticker-image--funding"
-                                style={{ width: "auto", height: "209px", position: "relative" }} src={Cassetepng} />
+                                style={{ width: "auto", height: "209px", position: "relative" }} src={Cassetepng} alt='cassete' />
                         </div>
                         <a className="c-button--large c-button--black u-hidden-tablet" href="/">LEARN MORE
                         </a>
